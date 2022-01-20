@@ -1,0 +1,673 @@
+#navigation {
+  text-align: center;
+
+  margin: auto;
+  width: 100%;
+  dispzy: flex;
+  height: 60px;
+  background-image: url("https://customercare.bathandbodyworks.com/euf/assets/images/customerCARE_gingham_d.png");
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 20px;
+  margin-top: 0%;
+}
+
+#navigation > div {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+  display: flex;
+  background-color: white;
+  border: 1px solid cornflowerblue;
+  height: 44px;
+  color: rgb(28, 28, 160);
+  font-weight: bold;
+  margin-top: 14px;
+}
+
+#a {
+  padding: 15px;
+  color: rgb(28, 28, 160);
+}
+
+#a:hover {
+  text-decoration: none;
+}
+
+#navdes {
+  text-align: right;
+  justify-content: right;
+  width: 100%;
+  display: flex;
+  height: 48px;
+  background-color: rgb(235, 235, 235);
+  color: rgb(28, 28, 160);
+  padding-right: 2%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#b {
+  padding: 18px;
+  color: rgb(73, 73, 73);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(219, 219, 219);
+}
+
+#ser {
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  font-size: 25px;
+  margin-left: 70px;
+}
+
+#hed {
+  color: #0f609f;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+}
+
+i {
+  margin-top: 20x;
+}
+
+#blog {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+#search {
+  padding: 40px;
+  font-size: 25px;
+  height: 38px;
+}
+
+#sign {
+  padding: 38px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sign:hover {
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0b7dda;
+}
+
+#hed:hover {
+  color: sandybrown;
+}
+
+#ser1 {
+  height: 42px;
+  width: 340px;
+  margin-left: 50px;
+  padding: 10px;
+  margin-top: 29px;
+}
+
+#t {
+  margin-top: 50px;
+  justify-content: space-around;
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#na {
+  text-decoration: none;
+}
+
+#na:hover,
+#gift:hover,
+#offers:hover,
+#a,
+#b,
+#b:hover {
+  text-decoration: underline;
+}
+
+#b:hover {
+  text-decoration: none;
+}
+
+#ser1:hover {
+  text-decoration: none;
+}
+
+#gift {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#offers {
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#b,
+#location {
+  padding: 18px;
+  color: rgb(73, 73, 73);
+}
+
+#b:hover {
+  text-decoration: none;
+}
+
+#location:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+#baa {
+  line-height: 30px;
+  text-decoration: none;
+  color: slategrey;
+}
+
+#baa:hover {
+  text-decoration: none;
+  color: rgb(60, 60, 211);
+}
+
+#home:hover {
+  text-decoration: none;
+}
+
+#searchbtn {
+  width: 68px;
+  height: 40px;
+  margin-top: 30px;
+  border: 1px solid black;
+}
+
+#search {
+  padding: 10px;
+}
+
+#searchbtn:hover {
+  background-color: slategrey;
+}
+
+#search:hover {
+  color: white;
+}
+
+#hed {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.menu-bar {
+  text-align: center;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.menu-bar ul {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.menu-bar ul li {
+  width: 100%;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.dropdown {
+  display: none;
+}
+
+.dropdown ul {
+  display: block;
+}
+
+.menu-bar ul li:hover .dropdown {
+  display: block;
+  justify-content: start;
+  text-align: start;
+}
+
+.sub-dropdown {
+  display: block;
+}
+
+.sub-dropdown {
+  display: none;
+}
+
+.dropdown ul li:hover .sub-dropdown {
+  margin-left: 200px;
+  display: block;
+  cursor: pointer;
+  color: rgb(57, 57, 252);
+  justify-content: start;
+  text-align: start;
+}
+
+a {
+  color: blue;
+}
+/* these is footer style */
+#container {
+  display: grid;
+  margin-left: 1%;
+  margin-right: 1%;
+
+  grid-template-columns: repeat(auto-fit, minmax(12, 1fr));
+  grid-template-rows: 600px 320px 500px 600px 600px 250px 300px 250px 150px 200px 400px;
+  grid-template-areas:
+    "a a a a a a a a a a a a" ". b b b b b b b b b b ."
+    ". c c c c c c c c c c ." ". d d d d d d d d d d ."
+    "e e e e e e e e e e e e" "f f f f f f f f f f f f"
+    "g g g g g g g g g g g g" "h h h h h h h h h h h h"
+    "i i i i i i i i i i i i" "j j j j j j j j j j j j"
+    "k k k k k k k k k k k k";
+}
+
+#img1 {
+  grid-area: a;
+  border: 0ch;
+}
+
+#two {
+  grid-area: b;
+  background-color: rgb(235, 232, 232);
+  margin-top: 2%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#three {
+  grid-area: c;
+  margin-top: 3%;
+  display: flex;
+}
+#four {
+  grid-area: d;
+  display: flex;
+  margin-top: 8%;
+}
+#five {
+  grid-area: e;
+  margin-top: 8%;
+}
+#six {
+  grid-area: f;
+}
+#seven {
+  grid-area: g;
+}
+#eight {
+  margin-top: 10%;
+  grid-area: h;
+}
+#nine {
+  grid-area: i;
+}
+#ten {
+  grid-area: j;
+  margin-top: 10%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#eleven {
+  grid-area: k;
+  display: flex;
+}
+
+#img2 {
+  border: 0ch;
+  margin-right: 2%;
+}
+#img3 {
+  border: 0ch;
+  margin-left: 2%;
+}
+#img4 {
+  border: 0ch;
+  margin-right: 2%;
+}
+#img5 {
+  border: 0ch;
+  margin-left: 2%;
+}
+#img6 {
+  border: 0ch;
+  margin-left: 2%;
+}
+
+#H1,
+#H2,
+#H3,
+#H4 {
+  text-decoration-line: underline;
+}
+
+#nav {
+  background-color: red;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#nav > button {
+  height: 46%;
+  background-color: chocolate;
+  margin-top: 2%;
+  border-radius: 1%;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+}
+h3 {
+  color: blue;
+}
+
+#BUY1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 20px;
+
+  height: 65%;
+  text-align: center;
+}
+#A {
+  line-height: 10px;
+  border: 1px solid rgb(211, 210, 210);
+  background-color: white;
+}
+#B {
+  border: 1px solid rgb(211, 210, 210);
+  background-color: white;
+}
+#C {
+  width: 15%;
+  line-height: 10px;
+  border: 1px solid rgb(211, 210, 210);
+  padding: 0px;
+  background-color: white;
+}
+#D {
+  width: 15%;
+  line-height: 10px;
+  border: 1px solid rgb(211, 210, 210);
+  padding: 0px;
+  background-color: white;
+}
+#shop1 {
+  background-color: black;
+  color: white;
+  padding: 2% 20%;
+  border: none;
+  margin-bottom: 10px;
+}
+#shop1:hover {
+  background-color: rgb(211, 209, 209);
+  color: black;
+}
+#shop2 {
+  background-color: black;
+  color: white;
+  padding: 2% 20%;
+  border: none;
+  margin-bottom: 10px;
+}
+#shop2:hover {
+  background-color: rgb(211, 209, 209);
+  color: black;
+}
+#shop3 {
+  background-color: black;
+  color: white;
+  padding: 2% 20%;
+  border: none;
+  margin-bottom: 8px;
+}
+#shop3:hover {
+  background-color: rgb(211, 209, 209);
+  color: black;
+}
+#shop4 {
+  background-color: black;
+  color: white;
+  padding: 2% 20%;
+  border: none;
+  margin-bottom: 8px;
+}
+#shop4:hover {
+  background-color: rgb(211, 209, 209);
+  color: black;
+}
+
+#seven {
+  width: 80%;
+  height: 40%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+#sev {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 20px;
+  height: 70%;
+  text-align: center;
+}
+#body {
+  width: 15%;
+  height: 100%;
+  border: 0ch;
+  background-color: transparent;
+}
+#all {
+  width: 15%;
+  height: 100%;
+}
+#wall {
+  width: 15%;
+  height: 100%;
+}
+#hand {
+  width: 15%;
+  height: 100%;
+}
+#handsa {
+  width: 15%;
+  height: 100%;
+}
+#gifts {
+  width: 15%;
+  height: 100%;
+}
+
+.hori {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+#join1 {
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 0ch;
+}
+
+#join2 {
+  margin-right: 2%;
+  margin-left: 2%;
+  border: 0ch;
+  margin-top: 1%;
+}
+p {
+  text-align: center;
+}
+
+#nine {
+  width: 80%;
+  height: 40%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+#nine1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 20px;
+  height: 70%;
+  text-align: center;
+}
+#p1 {
+  width: 15%;
+  height: 100%;
+  border: 0ch;
+  background-color: transparent;
+}
+#p2 {
+  width: 15%;
+  height: 100%;
+}
+#p3 {
+  width: 15%;
+  height: 100%;
+}
+#p4 {
+  width: 15%;
+  height: 100%;
+}
+
+.hori {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
+p {
+  margin-right: 10%;
+}
+input {
+  width: 150px;
+  height: 26px;
+  margin-top: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.fa {
+  padding: 10px;
+  font-size: 50px;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  justify-content: space-around;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+#btn {
+  color: white;
+  background-color: black;
+  padding: 7px 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#btn:hover {
+  background-color: rgb(228, 226, 226);
+  color: black;
+  border: transparent;
+}
+
+#footer {
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 90%;
+  margin: auto;
+}
+#fhead {
+  text-align: left;
+  justify-content: left;
+}
+#info {
+  width: 30%;
+}
+#abtacc {
+  width: 25%;
+  margin-left: 20px;
+}
+#abtdis {
+  width: 25%;
+  margin-left: 20px;
+}
+#abtfind {
+  width: 25%;
+}
+#abtcust {
+  width: 25%;
+  margin-left: 20px;
+}
+#footanc {
+  text-decoration: none;
+  line-height: 26px;
+  color: rgb(102, 101, 101);
+}
+#footanc:hover {
+  color: #55acee;
+}
+#oone { */
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+#oone {
+  display: flex;
+}
+#ann {
+  background-size: contain;
+  
+  width: 15%;
+  height: 100%;
+}

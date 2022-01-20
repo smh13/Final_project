@@ -1,0 +1,89 @@
+.header{
+    text-align: center;
+}
+
+.main_box{
+    display: flex;
+    margin:auto;
+    justify-content: space-evenly;
+}
+
+.submit_form
+{
+    display: grid;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.show_basket img{
+    width: 20%;
+    height: 20%;
+}
+
+.show_basket{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 25%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 300px;
+    overflow: scroll;
+}
+
+#submitBtn{
+    padding: 10px 20px;
+    justify-content: center;
+    background-color: #413d3d;
+    color: white;
+    border: transparent;
+    border-radius: 3px;
+}
+.show_basket>div{
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+
+
+#text_div{
+    width: 50%;
+    line-height: 13px;
+}
+.white_space
+{
+    margin: auto;
+    background-color: whitesmoke;
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+input[type=text]{
+    width: 250px;
+    height: 20px;
+}
+
+input[type=number]{
+    width: 250px;
+    height: 20px;
+}
+
+
+span{
+    margin-left: 25px;
+}
+.radio_buttons{
+    width: 100%;
+}
+.radio_buttons>div{
+    font-size: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.bolder
+{
+    font-size: 20px;
+}

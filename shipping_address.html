@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shipping_address.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="">
+    </div>
+    <div class="white_space"></div>
+    <div class="main_box">
+            <form id="myForm">
+                <div class="submit_form">
+                    <p class="bolder">Shipping Address</p>
+                    <div>
+                        <p>First Name</p>
+                        <input type="text" id="first_name">
+                    </div>
+                    
+                    <div>
+                        <p>Last Name</p>
+                        <input type="text" id="last_name">
+                    </div>
+                    
+                    <div>
+                        <p>Address 1</p>
+                        <input type="text" id="addr1">
+                    </div>
+    
+                    <div>
+                        <p>Address 2</p>
+                        <input type="text" id="addr2">
+                    </div>
+                    
+                    <div>
+                        <p>Country</p>
+                        <select id="country" id="country">
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>State</p>
+                        <select id="state">
+                            <option value="illinois">illinois</option>
+                            <option value="New Jersey">New Jersey</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Zip Code</p>
+                        <input type="number" id="zip_code">
+                    </div>
+    
+                    <div>
+                        <p>Phone</p>
+                        <input type="number" id="phone">
+                    </div>
+                    
+                    <div class="radio_buttons">
+                        <p class="bolder">Shipping Method</p>
+                        <div>
+                            <div>
+                                <input type="radio" id="standard" value="standard" name="shipping_method">
+                                <label for="standard">
+                                        Standard (3-7 Business Days)
+                                </label><br>
+                                <span>ETA: Mon Dec 20 - Fri Dec 24</span>
+                            </div>
+                            $5.99
+                        </div>
+                        <div>
+                            <div>
+                                <input type="radio" id="expedited" value="expedited" name="shipping_method">
+                                <label for="Expedited">
+                                        Expedited (2 Business Days)
+                                </label><br>
+                                <span>ETA: Fri Dec 17</span>
+                            </div>
+                            $14.99
+                        </div>
+                        <div>
+                            <div>
+                                <input type="radio" id="overnight" value="overnight" name="shipping_method">
+                                <label for="overnight">
+                                        Overnight (1 Business Day)
+                                </label><br>
+                                <span>ETA: Thurs Dec 16</span>
+                            </div>
+                            $19.99
+                        </div>
+    
+                    </div>
+                    <div>
+                        <input type="submit" id="submitBtn" value="Checkout">
+                    </div>
+                    
+                </div>
+            </form>
+
+            <div class="show_basket">
+                YOUR ORDER
+                <div class="white_space"></div>
+            </div>
+    </div>
+</body>
+</html>
+
+<script src="shipping_address.js"></script>
