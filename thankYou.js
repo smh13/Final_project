@@ -1,9 +1,9 @@
-let cart_arr = JSON.parse(localStorage.getItem("cart_items"))||[];
+let basket = JSON.parse(localStorage.getItem("basket_items"))||[];
 let shipping_details = JSON.parse(localStorage.getItem("shipping_data"))||[];
 
 // Populating the total values.
 var total = 0;
-cart_arr.map(function(elem){
+basket_arr.map(function(elem){
     total+=Number(elem['Price'].split("$")[1])
 })
 document.querySelector("#sub_total").textContent = "$"+total;
@@ -11,14 +11,14 @@ document.querySelector("#total").textContent = "$"+Number(total+4.5+5.25);
 document.querySelector("#shipping_type").textContent = shipping_details['shipping_method']
 
 
-// Calling the functions to display cart and shipping details.
-displayCart(cart_arr)
+// Calling the functions to display basket and shipping details.
+displaybasket(basket_arr)
 displayShipping(shipping_details)
 
 
-function displayCart(arr)
+function displaybasket(arr)
 {   
-    let show_cart = document.querySelector(".show_cart")
+    let show_basket = document.querySelector(".show_basket")
     arr.map(function(elem){
         let div = document.createElement("div");
         let img = document.createElement("img");
@@ -34,7 +34,7 @@ function displayCart(arr)
 
         text_div.setAttribute("id","text_div")
         div.append(img,text_div)
-        show_cart.append(div)
+        show_basket.append(div)
     })
 }
 

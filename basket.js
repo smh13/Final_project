@@ -1,3 +1,4 @@
+
 let arr = JSON.parse(localStorage.getItem("products"));
 let recommend_prods = arr["all soaps"].slice(4, 8);
 
