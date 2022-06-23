@@ -1,4 +1,4 @@
-this was my construct week solo project 
+this was my solo project 
 a 5 day project 
 to make a website inspired from BAth and Body works 
 
